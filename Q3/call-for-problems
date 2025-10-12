@@ -1,0 +1,45 @@
+Problem C
+Call for Problems, Round 2
+
+The Call for Problems for the ICPC North America Qualifier (NAQ) has finished, and a number of problems were proposed. The judges voted on the difficulty of each problem. The NAQ this year will feature some number of problems. The NAQ wants to feature problems with as many unique difficulties of possible. Compute the maximum number of unique difficulties attainable.
+Input
+
+The first line of input contains two integers
+and (). NAQ will use exactly problems out of the
+
+proposed.
+
+Each of the next
+lines contains a single integer (). These are the difficulties of the
+
+problems proposed.
+Output
+
+Output a single integer, which is the maximum number of unique difficulties that the NAQ can feature.
+Sample Input 1 	Sample Output 1
+
+20 19
+43
+4
+19
+27
+34
+7
+12
+34
+44
+36
+38
+38
+39
+34
+30
+35
+44
+47
+39
+5
+
+	
+
+15

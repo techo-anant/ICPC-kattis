@@ -1,0 +1,44 @@
+The nation of Gridlandia can be, naturally, represented as a grid of houses.
+
+Gridlandia is planning to install a number cell towers at some of the points of the grid. When a resident connects to cellular data, their phone will try to connect first to their closest tower, and if that fails, to their second closest tower. The government of Gridlandia is worried that some towers will become much more overloaded than others. Help them by computing for each house both the closest and second closest cell tower, as measured by the Manhattan Distance, which is the difference in rows plus the difference in columns.
+Input
+
+The first line of input contains three integers
+, () and () where Gridlandia is a grid with rows and columns, and is the number of cell towers. The towers are numbered from to
+
+.
+
+Each of the next
+lines contains two integers and (, ) which are the positions of the cell towers, in order. Every
+
+pair will be unique.
+Output
+
+The first
+lines of output should each contain space separated integers. The integer on the row and column should be the number of the closest cell tower to position
+
+, as measured by the Manhattan distance.
+
+The next
+lines of output should also each contain space separated integers. The integer on the row and column should be the number of the second closest cell tower to position
+
+, as measured by the Manhattan distance.
+
+If there are multiple closest cell towers to a given position, output the one with the lowest number. Likewise, if there are multiple second-closest cell towers to a given position, output the one with the lowest number.
+Sample Input 1 	Sample Output 1
+
+4 8 3
+1 1
+4 1
+2 6
+
+	
+
+1 1 1 1 3 3 3 3
+1 1 1 3 3 3 3 3
+2 2 2 3 3 3 3 3
+2 2 2 2 3 3 3 3
+2 2 3 3 1 1 1 1
+2 2 3 1 1 1 1 1
+1 1 1 2 2 2 2 2
+1 1 1 3 2 2 2 2

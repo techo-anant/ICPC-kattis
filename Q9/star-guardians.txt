@@ -1,0 +1,50 @@
+Problem I
+Star Guardians
+
+Jenny and Ojas are part of an elite group of competitive programmers called the Star Guardians. Their next job - to do well in the NAQ!
+
+The Star Guardians are working to assemble a team for the NAQ. They are yet to decide their team, but for each person in the group, it is known how many problems that person will solve.
+
+The Star Guardians are also well-versed in teamwork, so they will solve an additional number of problems based solely on the size of their team.
+
+The Star Guardians want to field a team that maximizes the average number of problems solved per team member. Compute the maximum average they can attain. You may assume the NAQ has infinitely many problems, so the Star Guardians will not run out of problems to solve.
+Input
+
+The first line of input contains a single integer,
+(
+
+, the number of Star Guardians.
+
+The next line contains
+integers (), with the integer being the additional number of problems solved if the Star Guardians field a team of size
+
+. It is guaranteed that these integers are monotonically increasing.
+
+The next line contains
+integers (
+
+), which is the number of problems each Star Guardian can solve.
+Output
+
+Output a single number, which is the maximum average number of problems per team member attainable. Your output will be considered correct if it has absolute or relative error at most
+
+from the correct answer.
+Sample Input 1 	Sample Output 1
+
+2
+283663485 732616075
+0 93763082
+
+	
+
+413189578.5
+
+Sample Input 2 	Sample Output 2
+
+1
+17109549
+100000000
+
+	
+
+117109549.0

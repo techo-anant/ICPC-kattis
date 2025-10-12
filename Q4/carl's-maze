@@ -1,0 +1,69 @@
+Problem D
+Carl's Maze-Solving Algorithm
+
+Carl the ant is back! After traveling around some pyramids, Carl has decided to study some algorithms and has invented a novel algorithm for solving grid mazes. It works as follows:
+
+    Carl starts somewhere in the maze facing to the right and wants to get to a destination square.
+
+    While Carl is not yet in the destination square.
+
+        If Carl can turn left by 90 degrees and face an empty square, he will turn left 90 degrees and then move forward by one square.
+
+        Otherwise, if Carl can move forward by one square, he will do so.
+
+        Otherwise, he will turn right 90 degrees.
+
+Carl wants to know if this algorithm works. Help him check!
+Input
+
+The first line of input contains two integers,
+and , indicating the size (rows, columns) of the maze. The cell at
+
+is the top left corner of the maze.
+
+The next line of input contains two integers,
+and , the starting location for Carl in row , column
+
+.
+
+The next line of input contains two integers,
+and , the desired ending location for Carl in row , column
+
+. It is guaranteed the starting location and desired ending location for Carl are different.
+
+Each of the next
+lines contains a string of
+
+characters, consisting only of 0 or 1. If the character is 1, then that square has an obstacle in it and cannot be traversed, otherwise it is empty. It is guaranteed that Carl’s starting location and desired ending location are empty.
+Output
+
+Output a single integer, which is
+if it is possible for Carl to get from the starting location to the ending location, and
+
+otherwise.
+Sample Input 1 	Sample Output 1
+
+4 5
+1 1
+4 5
+00111
+10100
+10111
+10000
+
+	
+
+1
+
+Sample Input 2 	Sample Output 2
+
+3 3
+1 1
+3 3
+001
+001
+110
+
+	
+
+0
